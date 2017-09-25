@@ -9,6 +9,12 @@ html, body {
 	overflow: hidden;
 }
 
+#background {
+	background-image: url("http://www.psdgraphics.com/file/light-wooden-background.jpg");
+	width:100%;
+	height:100%;
+}
+
 tr {
 	height:50px;	
 }
@@ -58,6 +64,7 @@ td {
 	text-align:center;
 }
 </style>
+<div id="background">
 <h1 class="heading">Filler</h1>
 <h2 class="heading" id="turnNumber">Player 1's turn</h2>
 <table>
@@ -147,6 +154,7 @@ td {
 <div id="playerTwo" class="score">
 <h2>Player 2 Score:</h2>
 <h2 id="twoScore">1</h2>
+</div>
 </div>
 <script>
 	var board = [];
